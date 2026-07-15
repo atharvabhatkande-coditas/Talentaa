@@ -1,0 +1,34 @@
+.button{
+  padding:0.2rem;
+  margin:0.4rem;
+  cursor:pointer;
+  background-color: grey;
+
+}
+.primary_Btn{
+  background-color:#3328fac0 ;
+  border-radius: 4px 8px;
+
+
+}
+.primary_Btn:hover{
+  background-color:white ;
+  color:#3328fac0;
+  
+}
+.ternary_Btn{
+  background-color:rgb(78, 77, 77) ;
+  border-radius: 4px 8px;
+
+}
+.ternary_Btn:hover{
+  background-color:rgb(255, 255, 255) ;
+
+}
+.close_Btn{
+  background-color: red;
+  border-radius: 2px;
+}
+.close_Btn:hover{
+  background-color: white;
+}

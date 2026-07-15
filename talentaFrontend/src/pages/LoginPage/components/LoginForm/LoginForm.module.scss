@@ -1,0 +1,39 @@
+@use "../../../../styles/mixins.scss" as *;
+.loginForm {
+  @include styling-content(flex, center, center, column, 0.4rem);
+  box-shadow: 0px 0px 8px 2px #363535;
+  padding: 0.75rem;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0rem;
+  padding: 0.5rem
+}
+
+.displaymsg {
+  font-size: 0.8em;
+  color: #1e1e1e;
+}
+
+.timer {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.loginButton {
+  @include styling-content(flex, center, center, row, 0rem);
+  justify-self: center;
+  padding: 0.75rem;
+  width: 70%;
+}
+
+.timerBasedButtonContainer {
+  @include styling-content(flex, center, center, row, 0.4rem);
+}
+
+.errorText {
+  color: red;
+  font-size: 0.75em;
+}

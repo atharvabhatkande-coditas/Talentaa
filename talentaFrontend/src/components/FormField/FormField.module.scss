@@ -1,0 +1,17 @@
+@use "../../styles/mixins.scss" as *;
+.fieldWrapper{
+  @include styling-content(flex,center,center,column,0)
+  
+}
+.labelInput{
+  @include styling-content(flex,center,center,row,0)
+
+}
+.label{
+  font-size: 1.5em;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.75em;
+}

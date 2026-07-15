@@ -1,0 +1,6 @@
+@use "../../styles/mixins" as *;
+.form{
+   @include styling-content(flex,center,center,column,1rem);
+   padding:0.75rem;
+
+}

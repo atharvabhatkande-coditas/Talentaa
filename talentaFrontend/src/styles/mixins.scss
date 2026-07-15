@@ -1,0 +1,8 @@
+@mixin styling-content ($display, $justify-content , $align-items ,$flex-direction, $gap){
+  display: $display;
+  justify-content: $justify-content;
+  align-items: $align-items;
+  gap: $gap;
+  flex-direction: $flex-direction;
+
+}

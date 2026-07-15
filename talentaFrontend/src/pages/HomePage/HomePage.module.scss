@@ -1,0 +1,26 @@
+@use "../../styles/mixins.scss" as *;
+.homeLayout {
+  display: grid;
+  grid-template-columns: 8fr 4fr;
+  min-height: 100vh;
+}
+
+.leftPanel {
+  background-image: url('/HomePageImage.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.infoDataContainer{
+  @include styling-content(flex,center,center,column, 2rem)
+  
+
+}
+
